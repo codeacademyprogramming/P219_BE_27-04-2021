@@ -5,6 +5,7 @@
  
 
 ## Tapşırıq
- Oz frontend layiheniz ve sinifde yazdigimiz layihenin (front end versiyasini gondermisem) viewlarini yaratmaq (dersde etdiyimiz kimi)
+ Oz frontend layiheniz ve sinifde yazdigimiz layihenin (sonuncu videoda etdiyimiz, startbootstrap layihesi) viewlarini yaratmaq (dersde etdiyimiz kimi)
+ PS: startbootstrapin front versiyasini repoya yerlesdirmisem
 
  
