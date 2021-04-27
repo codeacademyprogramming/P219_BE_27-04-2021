@@ -1,0 +1,22 @@
+﻿@using _27042021.Models;
+@using _27042021.ViewModels;
+@model ProductDetailViewModel
+@{
+    ViewData["Title"] = "Detail";
+
+    //Product product = (Product)ViewBag.Productt;
+    //List<CreditCard> cards = (List<CreditCard>)ViewBag.CreditCards;
+
+    }
+
+    <h1>Detail</h1>
+
+    <p>Name: @Model.Product.Brand @Model.Product.Name  Price: @Model.Product.SalePrice</p>
+    
+    <ul>
+        @foreach (var item in Model.CreditCards)
+        {
+            <li>@item.Name   <br /> @item.Month x @item.Price</li>
+        }
+    </ul>
+   

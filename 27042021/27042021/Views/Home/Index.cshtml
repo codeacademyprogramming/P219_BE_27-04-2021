@@ -1,0 +1,28 @@
+﻿@using _27042021.Models;
+@model List<Product>
+@{
+    ViewData["Title"] = "Index";
+
+    //List<Product> mehsullar = (List<Product>)ViewBag.Products;
+    double? price = 0;
+}
+
+<h1>Index</h1>
+<ul>
+    @foreach (var item in Model)
+    {
+        //if(item.DiscountedPrice == null)
+        //{
+        //    price = item.SalePrice;
+        //}
+        //else
+        //{
+        //    price = item.DiscountedPrice;
+        //}
+
+        <li>@item.Brand  @item.Name  <br /> @(item.DiscountedPrice==null?item.SalePrice:item.DiscountedPrice)</li>
+    }
+</ul>
+
+
+
